@@ -14,5 +14,3 @@ def countword ():
 			if revword(switchword) == word:
 				count = count + 1
 	return count + 1
-
-print(countword())

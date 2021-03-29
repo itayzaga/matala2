@@ -6,7 +6,7 @@ def revword (word):
 	return newword.lower()
 
 def countword ():
-	file = open('C:/Users/Moti/Desktop/text.txt')
+	file = open('text.txt')
 	word = file.readline().strip().lower()
 	count = 0
 	for line in file:
